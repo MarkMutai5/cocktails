@@ -18,13 +18,13 @@ function Cocktail({cocktail}) {
                 <Typography gutterBottom variant = "h6">
                     Ingredients
                 </Typography>
-                <Typography gutterBottom variant = "body2">
-                    <ol>
+                {/*<Typography gutterBottom variant = "body2">
+                    <ul>
                         <li>{cocktail.strIngredient1}</li>
                         <li>{cocktail.strIngredient2}</li>
                         <li>{cocktail.strIngredient3}</li>
-                    </ol>
-                </Typography>
+                    </ul>
+                 </Typography>*/}
                 <Typography gutterBottom variant = "body2">
                     {cocktail.strInstructions}
                 </Typography>
